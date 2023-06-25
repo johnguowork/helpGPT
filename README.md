@@ -4,7 +4,7 @@ A question-answer tool for your documents, powered by Pinecore, LangChain, and O
 
 ## Start Server
 
-### Requirements: Python 3.8 or later
+* Requirements: Python 3.8 or later
 
 Copy `.env_example` to a new `.env` file, and fill out the required settings:
 
