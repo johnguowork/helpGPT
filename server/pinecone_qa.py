@@ -89,6 +89,7 @@ def create_pinecone_index(index_name, force=False):
     pinecone.create_index(index_name, dimension=1536, timeout=60)
     print(f"Pinecone index {index_name} successfully created")
 
+
 @time_decorator
 def build_pinecone_index(docs, index_name):
     print(f"Start building Pinecone index {index_name}")
